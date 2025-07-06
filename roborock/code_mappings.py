@@ -364,8 +364,6 @@ class RoborockMopModeSaros10(RoborockMopModeCode):
     deep = 301
     custom = 302
     deep_plus = 303
-    fast = 304
-    smart_mode = 306
     
 
 class RoborockMopIntensityCode(RoborockEnum):
