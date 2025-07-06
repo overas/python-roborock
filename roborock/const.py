@@ -50,6 +50,7 @@ ROBOROCK_S8_MAXV_ULTRA = "roborock.vacuum.a97"
 ROBOROCK_QREVO_S = "roborock.vacuum.a104"
 ROBOROCK_QREVO_PRO = "roborock.vacuum.a101"
 ROBOROCK_QREVO_MAXV = "roborock.vacuum.a87"
+ROBOROCK_SAROS_10 = "roborock.vacuum.a147"
 
 ROBOROCK_DYAD_AIR = "roborock.wetdryvac.a107"
 ROBOROCK_DYAD_PRO_COMBO = "roborock.wetdryvac.a83"
@@ -75,4 +76,5 @@ SUPPORTED_VACUUMS = [
     ROBOROCK_S7,
     ROBOROCK_P10,
     ROCKROBO_G10_SG,
+    ROBOROCK_SAROS_10,
 ]
