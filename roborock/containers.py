@@ -681,9 +681,9 @@ class S8MaxvUltraStatus(Status):
 
 @dataclass
 class Saros10UltraStatus(Status):
-    #fan_power: RoborockFanSpeedS8MaxVUltra | None = None
-    #water_box_mode: RoborockMopIntensityS8MaxVUltra | None = None
-    mop_mode: RoborockMopModeSaros10 | None = None
+    #fan_power: RoborockFanSpeedSaros10 | None = None
+    water_box_mode: RoborockMopIntensitySaros10 | None = None
+    #mop_mode: RoborockMopModeSaros10 | None = None
 
 
 ModelStatus: dict[str, type[Status]] = {
