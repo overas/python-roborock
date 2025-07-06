@@ -80,6 +80,7 @@ from .const import (
     SIDE_BRUSH_REPLACE_TIME,
     STRAINER_REPLACE_TIME,
     ROBOROCK_G20S_Ultra,
+    ROBOROCK_SAROS_10,
 )
 from .exceptions import RoborockException
 
@@ -709,6 +710,7 @@ ModelStatus: dict[str, type[Status]] = {
     ROBOROCK_QREVO_MAXV: QRevoMaxVStatus,
     ROBOROCK_QREVO_PRO: P10Status,
     ROBOROCK_S8_MAXV_ULTRA: S8MaxvUltraStatus,
+    ROBOROCK_SAROS_10: Saros10UltraStatus,
 }
 
 
