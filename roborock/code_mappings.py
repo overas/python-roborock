@@ -474,10 +474,11 @@ class RoborockMopIntensitySaros10(RoborockMopIntensityCode):
     """Describes the mop intensity of the vacuum cleaner."""
 
     off = 200
-    mild = 201
-    standard = 202
-    intense = 203
-    extreme = 208
+    low = 201
+    medium = 202
+    high = 203
+    custom_water_flow = 207
+
 
 class RoborockDockErrorCode(RoborockEnum):
     """Describes the error code of the dock."""
