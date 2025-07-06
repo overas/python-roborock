@@ -359,6 +359,15 @@ class RoborockMopModeQRevoMaxV(RoborockMopModeCode):
     smart_mode = 306
     
 
+class RoborockMopModeSaros10(RoborockMopModeCode):
+    standard = 300
+    deep = 301
+    custom = 302
+    deep_plus = 303
+    fast = 304
+    smart_mode = 306
+    
+
 class RoborockMopIntensityCode(RoborockEnum):
     """Describes the mop intensity of the vacuum cleaner."""
 
