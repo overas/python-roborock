@@ -357,14 +357,7 @@ class RoborockMopModeQRevoMaxV(RoborockMopModeCode):
     deep_plus = 303
     fast = 304
     smart_mode = 306
-
-
-class RoborockMopModeSaros10(RoborockMopModeCode):
-    mild = 201
-    standard = 202
-    intense = 203
-    extreme = 208
-
+    
 
 class RoborockMopIntensityCode(RoborockEnum):
     """Describes the mop intensity of the vacuum cleaner."""
@@ -475,7 +468,16 @@ class RoborockMopIntensityQ7Max(RoborockMopIntensityCode):
     medium = 202
     high = 203
     custom_water_flow = 207
-    
+
+
+class RoborockMopIntensitySaros10(RoborockMopIntensityCode):
+    """Describes the mop intensity of the vacuum cleaner."""
+
+    off = 200
+    mild = 201
+    standard = 202
+    intense = 203
+    extreme = 208
 
 class RoborockDockErrorCode(RoborockEnum):
     """Describes the error code of the dock."""
