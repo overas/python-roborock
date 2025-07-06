@@ -40,6 +40,7 @@ from .code_mappings import (
     RoborockMopIntensityS6MaxV,
     RoborockMopIntensityS7,
     RoborockMopIntensityS8MaxVUltra,
+    RoborockMopIntensitySaros10,
     RoborockMopModeCode,
     RoborockMopModeQRevoCurv,
     RoborockMopModeQRevoMaster,
@@ -676,6 +677,13 @@ class S8MaxvUltraStatus(Status):
     fan_power: RoborockFanSpeedS8MaxVUltra | None = None
     water_box_mode: RoborockMopIntensityS8MaxVUltra | None = None
     mop_mode: RoborockMopModeS8MaxVUltra | None = None
+
+
+@dataclass
+class Saros10UltraStatus(Status):
+    #fan_power: RoborockFanSpeedS8MaxVUltra | None = None
+    #water_box_mode: RoborockMopIntensityS8MaxVUltra | None = None
+    mop_mode: RoborockMopModeSaros10 | None = None
 
 
 ModelStatus: dict[str, type[Status]] = {
